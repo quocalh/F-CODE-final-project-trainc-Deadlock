@@ -5,4 +5,7 @@
 #include ".inc/time_handler.h"
 #include <stdio.h>
 
-int main() { System system; }
+int main() {
+  System system;
+  printf("Hello world\n");
+}

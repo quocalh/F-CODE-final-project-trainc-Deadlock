@@ -1,0 +1,5 @@
+# Ignore all .exe files inside any folder named "prog"
+prog/*.exe
+
+# Ignore a specific file in the repo root
+/testing.c
