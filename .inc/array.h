@@ -3,8 +3,9 @@
 
 #include "../.inc/product.h"
 
-// missed opportunity to utilize a sparse set, bruh bruh bruh bruh bruh, pls
-// help
+// missed opportunity to utilize a sparse set, bruh bruh bruh bruh bruh
+// nah, this is it, i will handle the sparse set thingy
+// whatever
 
 typedef struct {
   Product *ptr;

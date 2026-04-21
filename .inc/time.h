@@ -1,10 +1,10 @@
-#ifndef TIME_H
-#define TIME_H
-#include <time.h>
+#ifndef TIMEHANDLER_H
+#define TIMEHANDLER_H
 
+#include <time.h>
 typedef struct {
   time_t now;
-  struct tm *time_ptr;
+  struct tm time_ptr;
   int year;
   int month;
   int date;

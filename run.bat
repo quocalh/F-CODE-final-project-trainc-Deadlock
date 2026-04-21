@@ -9,7 +9,8 @@ gcc main.c -I .inc -o prog\prog.exe ^
 .\.src\report.c ^
 .\.src\system.c ^
 .\.src\time.c ^
-.\.src\utils.c
+.\.src\transaction.c ^
+.\.src\utils.c ^
 
 IF %ERRORLEVEL% NEQ 0 pause & exit /b
 
