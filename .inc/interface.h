@@ -3,9 +3,8 @@
 
 #include "../.inc/system.h"
 typedef struct {
-  int a;
-  int b;
+  System system;
 } Interface;
 
-void mainInterface(System *system);
+void mainInterface();
 #endif

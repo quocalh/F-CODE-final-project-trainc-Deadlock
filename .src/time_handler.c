@@ -1,5 +1,4 @@
-#include "../.inc/time.h"
-#include <time.h>
+#include "../.inc/time_handler.h"
 
 void FetchTime(TimeHandler *time_handler, int isLocal) {
   time_handler->now = time(NULL);

@@ -2,7 +2,7 @@
 #define SYSTEM_H
 
 #include "../.inc/product.h"
-#include "../.inc/time.h"
+#include "../.inc/time_handler.h"
 
 // SINGLETON
 typedef struct {
@@ -24,6 +24,7 @@ void ModifyProduct(System *system, unsigned int ProductID, char Category[50],
                    unsigned int lowStockThreshold);
 void DeleteProduct(System *system, char *ProductID); // sparse set functions
 
+//
 void ImportProduct(System *system, int Quantity, char *ProductID);
 void ExportProduct(System *system, int Quantity, char *ProductID);
 

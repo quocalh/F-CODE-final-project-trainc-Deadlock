@@ -21,4 +21,15 @@ int GetHour(TimeHandler *time_handler);
 int GetMinute(TimeHandler *time_handler);
 int GetSecond(TimeHandler *time_handler);
 
+typedef struct {
+  int year;
+  int month;
+  int date;
+  int hour;
+  int minute;
+  int second;
+} TimeStamp;
+
+void GetTime(TimeHandler *time_handler, TimeStamp *time_stamp);
+
 #endif
