@@ -1,8 +1,8 @@
+#include ".inc/coloring.h"
+#include ".inc/interface.h"
+#include ".inc/product.h"
+#include ".inc/system.h"
+#include ".inc/time.h"
 #include <stdio.h>
 
-int main() {
-  printf("hello world\n");
-  int a = 5;
-
-  printf("a = %d\n", a);
-}
+int main() { System system; }

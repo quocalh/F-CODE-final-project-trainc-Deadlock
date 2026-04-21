@@ -2,7 +2,7 @@
 #define PRODUCT_H
 
 typedef struct {
-  char productID[50];
+  int productID;
   char productName[50];
   char Catergory[50];
   int quantity;
