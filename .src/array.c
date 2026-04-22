@@ -31,4 +31,10 @@ void AddProduct(ProductArray *array, int ProductID, char *productName,
 
   array->quantity++;
 }
-void DeleteProduct(ProductArray *array, int ProductID);
+
+void DeleteProduct(ProductArray *array, int ProductID) {
+  Product *product_slot = array->ptr + ProductID;
+  // Flag as deleted, reset all the attributes
+  product_slot->lowStockThreshold = -1;
+  product_slot->quantity = 0;
+}

@@ -10,6 +10,8 @@
 typedef struct {
   Product *ptr;
   int quantity;
+  int currentmaxQuantity;
+  int maxQuantity;
 } ProductArray;
 
 void AddProduct(ProductArray *array, int ProductID, char *productName,
