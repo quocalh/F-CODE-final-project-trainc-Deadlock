@@ -16,13 +16,13 @@ void hienThiDanhSach(char duongDan[]) {
   }
   fclose(f);
 }
-int main() {
-  char duongDan[100];
-  printf("Nhap duong dan file (vd: io/products.dat): ");
-  scanf("%s", duongDan);
-  hienThiDanhSach(duongDan);
-  return 0;
-}
+// int main() {
+//   char duongDan[100];
+//   printf("Nhap duong dan file (vd: io/products.dat): ");
+//   scanf("%s", duongDan);
+//   hienThiDanhSach(duongDan);
+//   return 0;
+// }
 // GHI FILE:
 void ghiMoiHoanToan(char duongDan[], char ten[], int sl) {
   FILE *f = fopen(duongDan, "w");

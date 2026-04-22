@@ -3,10 +3,11 @@ prog/*.exe
 **/prog/**/*.exe
 
 # Ignore a specific file in the repo root
+/testing.exe
 /testing.c
-
 # Ignore vscode file 
 /.vscode/
 
 # to ignore .exe files only in the root directory
 /*.exe
+
