@@ -1,12 +1,12 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
+#include "../.inc/array.h"
 #include "../.inc/product.h"
 #include "../.inc/time_handler.h"
-
 // SINGLETON
 typedef struct {
-  Product *products;
+  ProductArray *product_array;
   int ProductCount;
   TimeHandler timeHandler;
 
@@ -22,7 +22,8 @@ void AddNewProduct(System *system, unsigned int ProductID, char Category[50],
 void ModifyProduct(System *system, unsigned int ProductID, char Category[50],
                    unsigned long int importPrice, unsigned long sellingPrice,
                    unsigned int lowStockThreshold);
-void DeleteProduct(System *system, char *ProductID); // sparse set functions
+
+// void DeleteProduct(System *system, char *ProductID); // sparse set functions
 
 //
 void ImportProduct(System *system, int Quantity, char *ProductID);

@@ -11,6 +11,7 @@ typedef struct {
   unsigned long int priceImport;
   unsigned long int priceSelling;
   unsigned int lowStockThreshold;
+  int is_deleted;
 } Product;
 
 #endif
