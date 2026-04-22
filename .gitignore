@@ -5,6 +5,7 @@ prog/*.exe
 # Ignore a specific file in the repo root
 /testing.exe
 /testing.c
+
 # Ignore vscode file 
 /.vscode/
 
